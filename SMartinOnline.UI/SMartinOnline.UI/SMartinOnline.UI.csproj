@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SMartinOnline.BLL\SMartinOnline.BLL\SMartinOnline.BLL.csproj">
+      <Project>{9e610f16-1c94-403e-b461-01cb508d7b76}</Project>
+      <Name>SMartinOnline.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
